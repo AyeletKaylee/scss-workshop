@@ -6,8 +6,6 @@ body {
 	background: $dark-purple;
 }
 
-$🍔: #be65dd;
-
 .background-overlay {
 	position: fixed;
 	height: 100vh;
@@ -44,7 +42,8 @@ $🍔: #be65dd;
 		border-radius: 20px;
 
 		// coloring
-		color: $🍔;
+		// color: $🍔;
+		color: $white;
 		background: $green-80;
 
 		// fonts
