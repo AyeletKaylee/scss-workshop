@@ -1,4 +1,6 @@
-export const cardInfo = [
+import { CardInfo } from '../types/card-info.interface';
+
+export const cardInfo: CardInfo[] = [
 	{
 		subtitle: 'compete against others',
 		title: 'discover career mode',

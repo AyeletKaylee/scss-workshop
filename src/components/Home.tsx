@@ -1,12 +1,10 @@
-import React from 'react'
-
 import { cardInfo } from '../constants';
 
 import LittleOptions from './LittleOptions';
 import Card from './Card'
 
 
-const Home = () => {
+const Home: React.FC = () => {
 	return (
 		<div className='home'>
 			<div className='ad'></div>

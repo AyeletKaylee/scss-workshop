@@ -4,7 +4,7 @@ import { Button } from '.';
 import { navigationRoutes } from '../constants';
 
 
-const Header = () => {
+const Header: React.FC = () => {
 
 	const [selectedRoute, setSelectedRoute] = useState(navigationRoutes[0].path);
 

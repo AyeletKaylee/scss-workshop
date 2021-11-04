@@ -1,6 +1,11 @@
 import clsx from "clsx";
 
-const Button = ({ white = false, onClick, children }) => {
+interface ButtonProps {
+	white?: Boolean;
+	onClick?: () => Promise<void>;
+}
+
+const Button: React.FC<ButtonProps> = ({ white = false, onClick, children }) => {
 	return (
 		<span className='generic-button-container'>
 			<div className={clsx('green-generic-button', white && 'white-button')} onClick={onClick}>

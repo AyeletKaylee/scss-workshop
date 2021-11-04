@@ -1,4 +1,6 @@
-export const navigationRoutes = [{
+import { NavigationRoute } from "../types";
+
+export const navigationRoutes: NavigationRoute[] = [{
 	title: 'Home',
 	path: '/'
 }, {
